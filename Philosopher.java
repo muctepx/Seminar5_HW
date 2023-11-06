@@ -31,7 +31,7 @@ public class Philosopher implements Runnable {
                     action("кладет на стол вилку "+rightFork.number,500);
                 }
             }
-            action("наелся ++++++++++++++");
+            action("---наелся---");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
